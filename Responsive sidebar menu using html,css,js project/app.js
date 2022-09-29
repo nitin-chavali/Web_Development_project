@@ -1,10 +1,10 @@
-const dark= document.querySelector(".dark");
+const dar= document.querySelector(".dark");
 const night= document.querySelector(".night");
 const light= document.querySelector(".light");
 const sidebar= document.querySelector(".sidebar");
 const activeListItem= document.querySelector(".list-item.active");
 console.log(activeListItem)
-dark.addEventListener("click",()=>{
+dar.addEventListener("click",()=>{
     sidebar.className="sidebar";
     activeListItem="list-item.active"
 
